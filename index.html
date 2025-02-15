@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baidehi • Architect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="logo">BAIDEHI</a>
+            <div class="nav-links">
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image">
+                <!-- Replace with actual hero image -->
+                <img src="images/hero.jpg" alt="Featured architectural work">
+            </div>
+            <div class="hero-text">
+                <h1>Architecture & Design</h1>
+                <p>Creating spaces that inspire</p>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work">
+            <div class="project-grid">
+                <article class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="3382000-ai-summit-in-sponsor-social-feed-2048x2048.jpg" alt="Urban Housing Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Urban Housing Project</h3>
+                        <p>Sustainable living spaces in metropolitan areas</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-project="2">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Cultural Center">
+                    </div>
+                    <div class="project-info">
+                        <h3>Cultural Center</h3>
+                        <p>Modern interpretation of traditional architecture</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-project="3">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Public Library">
+                    </div>
+                    <div class="project-info">
+                        <h3>Public Library</h3>
+                        <p>Knowledge spaces for the community</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Baidehi">
+                </div>
+                <div class="about-text">
+                    <h2>About</h2>
+                    <p>I'm an architect focused on creating sustainable and meaningful spaces that enhance human experience. My work combines modern design principles with environmental consciousness.</p>
+                    <div class="credentials">
+                        <span>B.Arch, University of Architecture</span>
+                        <span>LEED Certified Professional</span>
+                        <span>Award-winning Designer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <div class="contact-info">
+                    <a href="mailto:baidehi@example.com" class="contact-link">baidehi@example.com</a>
+                    <a href="tel:+1234567890" class="contact-link">+123 456 7890</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-images">
+                <!-- Images will be dynamically loaded here -->
+            </div>
+            <div class="modal-info">
+                <h2></h2>
+                <p class="project-description"></p>
+                <div class="project-details">
+                    <div class="detail">
+                        <span class="label">Location</span>
+                        <span class="value"></span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Year</span>
+                        <span class="value"></span>
+                    </div>
+                    <div class="detail">
+                        <span class="label">Type</span>
+                        <span class="value"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Baidehi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
